@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  	xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" android:background="@drawable/citylive_white_bg">
+
+  <RelativeLayout
+      android:id="@+id/Relative01"
+      android:layout_width="fill_parent"
+      android:layout_height="fill_parent" >
+
+        <TableLayout
+            android:id="@+id/TableLayout01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="false"
+            android:layout_centerHorizontal="true"
+            android:layout_centerInParent="false"
+            android:layout_centerVertical="false" >
+        	
+<TableRow
+    android:id="@+id/TableRow03"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" >
+
+<ImageButton
+    android:id="@+id/ImageButton01"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="10dp"
+    android:background="@drawable/bg_live_small"
+    android:layout_marginStart="10dp">
+
+</ImageButton></TableRow></TableLayout>
+
+      <TableLayout
+          android:id="@+id/TableLayout02"
+          android:layout_width="fill_parent"
+          android:layout_height="wrap_content"
+          android:layout_alignParentBottom="false"
+          android:layout_below="@+id/TableLayout01">
+
+          <TableRow
+              android:id="@+id/TableRow05"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:gravity="center_horizontal">
+
+              <ImageButton
+                  android:id="@+id/ImageButton02"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:background="@drawable/speaker"
+                  android:minHeight="50dp"></ImageButton>
+
+              <SeekBar
+                  android:id="@+id/volume"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_marginLeft="15dp"
+                  android:layout_marginTop="10dp"
+                  android:max="100"
+                  android:maxHeight="20dp"
+                  android:maxWidth="200dp"
+                  android:minHeight="30dp"
+                  android:minWidth="200dp"
+                  android:progress="0"
+                  android:scrollbarAlwaysDrawHorizontalTrack="true"
+                  android:scrollbarStyle="insideOverlay"
+                  android:soundEffectsEnabled="true"
+                  android:layout_marginStart="15dp"></SeekBar>
+
+
+              <ImageButton
+                  android:id="@+id/ImageButton04"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:background="@drawable/maxvolume"></ImageButton>
+          </TableRow>
+      </TableLayout>
+
+
+      <TableLayout
+          android:id="@+id/TableLayout03"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_below="@+id/TableLayout02"
+          android:layout_centerHorizontal="true">
+
+          <TableRow
+              android:id="@+id/TableRow06"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content">
+
+              <Button
+                  android:id="@+id/PlayButton"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:background="@drawable/play_circle"
+                  android:minHeight="50dp"
+                  android:minWidth="50dp"
+                  android:paddingBottom="10dp"
+                  android:textSize="17sp"></Button>
+
+
+          </TableRow>
+      </TableLayout>
+
+
+      <TableLayout
+          android:id="@+id/TableLayout04"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="330dp">
+
+          <TableRow
+              android:id="@+id/TableRow04"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_marginTop="20dp"
+              android:visibility="invisible">
+
+          </TableRow>
+      </TableLayout>
+
+
+      <ImageView
+          android:id="@+id/ownads"
+          android:layout_width="fill_parent"
+          android:layout_height="0dp"
+          android:src="@drawable/rollingads"
+          android:visibility="invisible" />
+
+</RelativeLayout>
+</LinearLayout>

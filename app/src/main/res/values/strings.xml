@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, CityLiveHome!</string>
+    <string name="app_name">Live FM 104.25 Chiang Mai</string>
+<string name="admobversion">20100331</string>
+<string name="admobversionstring">ca-app-pub-3679619176647553/8022117428</string>
+</resources>
